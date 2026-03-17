@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gravitas+One&display=swap');
 *{
     box-sizing: border-box;
+}
+body{
+    background-color: #5b00ff;
+    color: #ff00c8;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight:200;
+    font-style: normal;
 }
 main{
     display: flex;
@@ -9,8 +17,11 @@ main{
     /* border: solid red 10px; */
 }
 h2{
-    font-weight: bold;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 50px;
+    text-align: center;
 }
 fieldset{
     /* border: solid 10px pink ; */
